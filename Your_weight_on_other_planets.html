@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your weight on other planets</title>
+        <link rel="stylesheet" href="StyleSheet1.css"/>
+    </head>
+    <body>
+        <div id="titleContainer">
+            <div id="header">
+                Your weight on other planets
+            </div>
+        </div>
+        <div id="textContainer">
+            Your weight is the force that the Earth exerts on you and it depends on the value of gravity. <br/>
+            On other planets, gravity is different so your weight is also different.
+        
+        </div>
+        <div class="container">
+            <p>
+                Enter your weight and select the planet
+            </p>
+            <p>
+                Enter your weight in kilograms <br/>
+                <br>
+                <input type="text", id="weight_text"><br/>
+                <form>
+                    Chose the planet:
+                    <select id="planet_list">
+                        <option>Mercury</option>
+                        <option>Venus</option>
+                        <option>Earth</option>
+                        <option>Mars</option>
+                        <option>Jupiter</option>
+                        <option>Saturn</option>
+                        <option>Uranus</option>
+                        <option>Neptune</option>
+                    </select>
+                </form>
+                <br>
+                <input type="button", value="Calculate", id="button_cal"> <br>
+                <br>
+            </p>
+            <p>
+                Your weight in <span id="planet_out"> - </span> is <span id="weight_out"> - </span> kg
+            </p>
+        </div>
+        
+        <script src="planets_weight.js"></script>
+    </body>
+</html>

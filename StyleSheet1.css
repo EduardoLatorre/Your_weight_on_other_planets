@@ -1,0 +1,74 @@
+﻿body{
+	background-image: url("https://i.imgur.com/qle194G.jpeg");
+	background-color: #cccccc;
+	font-family: Helvetica;
+	text-align: center;
+}
+
+#titleContainer{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	background-color: #0E6655;
+	margin: 0 auto;
+}
+
+#header
+{
+    padding: 0 0 0 1em;
+    font-weight: bold;
+    font-size: 3em;
+	color: #EAF2F8;
+}
+
+#textContainer{
+	width: 50%;
+	padding: 0;
+	text-align: left;
+	margin: 0 auto;
+	min-width: 450px;
+	color: #EAF2F8;
+	text-align: left;
+	font-size: 1.5em;
+	padding: 10px 10px;
+}
+
+.container{
+	width: 40%;
+	min-width: 450px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 10px 10px;
+	background-color: #0E6655;
+}
+
+p{
+	color: #EAF2F8;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+form{
+	color: #EAF2F8;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+#button_cal{
+	width: 30%;
+	border-radius: 5px;
+	padding: 10px 10px;
+	font-size: 1.1em;
+}
+
+#weight_text{
+	width: 30%;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+#planet_list{
+	font-size: 0.75em;
+	border-radius: 5px;
+	padding: 3px 3px;
+}
