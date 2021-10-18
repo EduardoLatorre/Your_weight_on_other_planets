@@ -11,36 +11,46 @@ var g_uranus = 8.87;
 var g_neptune = 11.15;
 
 
+
 function calcular_peso()
 {
     var user_weight = parseFloat(entered_weight.value)
     var g_planet;
     var planet_name = document.getElementById("planet_list").value;
+
     
     switch (planet_name) {
         case "Mercury":
             g_planet = g_mercury;
+            document.body.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/North_pole_of_Mercury_--_NASA.jpg/800px-North_pole_of_Mercury_--_NASA.jpg")';
             break;
         case "Venus":
             g_planet = g_venus;
+            document.body.style.backgroundImage = 'url("https://i.imgur.com/SzH5sFn.jpeg")';
             break;
         case "Earth":
             g_planet = g_earth;
+            document.body.style.backgroundImage = 'url("https://i.imgur.com/R9441p2.jpeg")';
             break;
         case "Mars":
             g_planet = g_mars;
+            document.body.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mars_atmosphere.jpg/535px-Mars_atmosphere.jpg")';
             break;
         case "Jupiter":
             g_planet = g_jupiter;
+            document.body.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/7/75/Portrait_of_Jupiter_from_Cassini.jpg")';
             break;
         case "Saturn":
             g_planet = g_saturn;
+            document.body.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/4/4f/PIA20517-Saturn%26Rings-CassiniSpacecraftScene-20161028.jpg")';
             break;
         case "Uranus":
             g_planet = g_uranus;
+            document.body.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Uranuslight.jpg/600px-Uranuslight.jpg")';
             break;
         case "Neptune":
             g_planet = g_neptune;
+            document.body.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/c/c8/Neptune_clouds.jpg")';
             break;
         default:
             break;

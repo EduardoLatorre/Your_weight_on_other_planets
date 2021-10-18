@@ -3,6 +3,9 @@
 	background-color: #cccccc;
 	font-family: Helvetica;
 	text-align: center;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 #titleContainer{
